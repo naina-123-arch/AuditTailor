@@ -1,0 +1,8 @@
+# AuditTailor — deterministic source-grounded presentation generation
+# Python 3.9+ (3.10+ recommended). No API keys, no GPU, no network required at runtime.
+PyMuPDF>=1.23.0      # PDF parsing (imported as pymupdf or fitz)
+python-pptx>=0.6.21  # PPTX generation and reference-deck analysis
+numpy>=1.22          # numeric helpers
+scikit-learn>=1.0    # Phase 3: TF-IDF and cosine similarity (no neural networks)
+Pillow>=9.0          # optional: font metrics for text-fill estimates
+streamlit>=1.30      # web interface (app.py)
